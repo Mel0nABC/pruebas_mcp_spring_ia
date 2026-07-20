@@ -2,7 +2,6 @@ package dev.mel0n.service;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.List;
 
 import org.springframework.ai.mcp.annotation.McpTool;
 import org.springframework.ai.tool.annotation.ToolParam;
@@ -10,16 +9,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class McpAppService {
-
-    // public static void main(String[] args) {
-    // McpAppService mcpAppService = new McpAppService();
-    // try {
-    // mcpAppService.linuxTerminal(List.of("ls", "-l"));
-    // } catch (Exception e) {
-    // // TODO Auto-generated catch block
-    // e.printStackTrace();
-    // }
-    // }
 
     @McpTool(description = "Prueba de mcp")
     public String mcpTest() {
