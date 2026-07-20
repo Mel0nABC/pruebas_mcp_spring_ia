@@ -9,12 +9,12 @@ This project is intended as a learning resource for understanding how Spring AI 
 The repository contains two independent Spring Boot applications:
 
 ```
-spring-ai-mcp-example/
+pruebas_mcp_spring_ia/
 │
-├── mcp-server/
+├── pruebas_mcp_ia_servidor/
 │   └── Spring AI MCP Server
 │
-└── mcp-client/
+└── pruebas_mcp_ia_cliente/
     └── Spring AI MCP Client
 ```
 
@@ -110,7 +110,7 @@ ollama pull granite4.1:3b
 ### 3. Start the MCP Server
 
 ```
-cd mcp-server
+cd pruebas_mcp_ia_servidor
 mvn spring-boot:run
 ```
 
@@ -119,7 +119,7 @@ The server will publish the available tools.
 ### 4. Start the MCP Client
 
 ```
-cd mcp-client
+cd pruebas_mcp_ia_cliente
 mvn spring-boot:run
 ```
 
